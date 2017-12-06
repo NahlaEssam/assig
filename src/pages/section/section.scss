@@ -1,0 +1,30 @@
+@import "../../theme/variables.scss";
+section-page {
+  
+    .fixed-content{
+        background: rgb(214,223,228);  
+    } 
+    .button-text{
+        font-size: 20px;    
+    }
+    .department-container{
+         
+         padding: 0px 5px;
+         margin: 5px 0px;
+        .department{
+                // margin: 5px 0px;
+                background: white;
+                border-radius: 5px;
+            
+                    .name{
+                            font-size: 16px;
+                            text-align: center;
+
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            overflow: hidden;
+                    }
+            }
+
+    }
+}

@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 @Component({
-  selector: 'page-contact',
-  templateUrl: 'contact.html'
+  selector: 'ads-page',
+  templateUrl: 'ads.html'
 })
-export class ContactPage {
-
+export class adsPage {
+  public title = 'اعلاناتى';
   constructor(public navCtrl: NavController) {
 
   }
