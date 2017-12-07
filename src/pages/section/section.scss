@@ -1,12 +1,15 @@
 @import "../../theme/variables.scss";
 section-page {
-  
+    .toolbar-content-md{
+        padding-left: 28px;
+    }
     .fixed-content{
         background: rgb(214,223,228);  
     } 
     .button-text{
         font-size: 20px;    
     }
+   
     .department-container{
          
          padding: 0px 5px;
@@ -27,8 +30,5 @@ section-page {
             }
 
     }
-    .invisible-button{
-        height: 10px;
-        width: 40px;
-    }
+ 
 }
