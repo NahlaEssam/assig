@@ -34,7 +34,7 @@
         top: 22%;
         font-size: 11px;
         padding: 0px;
-        right: calc(50% - 42px) !important;
+        right: calc(50% - 46px) !important;
         line-height: 14px;
 }
    
@@ -52,10 +52,40 @@
 }
 .tab-button-text{
     // font-size: 27px;
-    font-size: 13.5px !important;
+    // font-size: 13.5px !important;
+    font-size: 16px !important;
+    // font-size: 18.5px !important;
+    margin-right: 6px;
+    margin-bottom: 0px;
 }
 .tab-button-icon{
     font-size: 28px;
 }
-
+.tab-button .ion-icon{
+    min-width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
    
+ion-icon {
+    &[class*="appname-"] {
+        // Instead of using the font-based icons
+        // We're applying SVG masks
+        mask-size: contain;
+        mask-position: 50% 50%;
+        mask-repeat: no-repeat;
+        background: currentColor;
+        width: 1em;
+        height: 1em;
+    }
+    // custom icons
+    &[class*="appname-film"] {
+        mask-image: url(../assets/imgs/films.gif);
+    }
+    &[class*="appname-section"] {
+        mask-image: url(../assets/imgs/sections.gif);
+    }
+    &[class*="appname-chat"] {
+        mask-image: url(../assets/imgs/chat.gif);
+    }
+}
