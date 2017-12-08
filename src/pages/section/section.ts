@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController,LoadingController , ModalController } from 'ionic-angular';
+import { NavController,LoadingController  } from 'ionic-angular';
 
 import { DepartmentServiceProvider } from '../../providers/departments-service';
 import { Department } from '../../models/department-model';
@@ -17,7 +17,7 @@ export class SectionPage {
   public displayedDepartments : Department [] = [];
   
   constructor(public navCtrl: NavController , private departmentService: DepartmentServiceProvider 
-  , private loadingCtrl: LoadingController , private modalCtrl: ModalController  ) {
+  , private loadingCtrl: LoadingController   ) {
 
   }
   ngOnInit(){
