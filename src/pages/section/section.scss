@@ -6,21 +6,33 @@ section-page {
     .fixed-content{
         background: rgb(214,223,228);  
     } 
-    .button-text{
-        // font-size: 37px;
-        font-size: 18.5px;
+    .section-button{
+            height: 2.5em;
+            width: 94% !important;
+            margin: 0.8rem auto !important;
+            border-radius: 4px;
+           
     }
-    .ion-app.md  .scroll-content , .grid{
+    .button-text, .pin{
+        // font-size: 37px;
+        font-size: 19px !important;
+    }
+    .scroll-content{
+            padding: 6.5px !important;
+    }
+     .grid{
         padding: 0px !important;
     }
     .button-block{
-        width: 90% !important;
-        margin: 0.4rem auto !important;
+     
     }
     .department-container{
          
-         padding: 0px 8.5px;
-         margin: 7.5px 0px;
+        //  padding: 0px 8.5px;
+        //  margin: 7.5px 0px;
+
+             padding: 0px 4.5px;
+    margin: 4.5px 0px;
         .department{
                 // margin: 5px 0px;
                 img{
@@ -31,9 +43,10 @@ section-page {
             
                     .name{
                             // font-size: 32px;
-                            font-size: 16px;
+                            // font-size: 16px;
+                            font-size: 15px;
                             text-align: center;
-
+                             font-weight: bold;
                             text-overflow: ellipsis;
                             white-space: nowrap;
                             overflow: hidden;

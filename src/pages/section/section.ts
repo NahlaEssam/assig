@@ -11,7 +11,7 @@ import { Department } from '../../models/department-model';
 })
 export class SectionPage {
   public title = 'صرفها';
-  public buttonText = '(تغيير المدينه الحاله (جده';
+  public buttonText = '(تغيير المدينة الحالية (جده';
   public searchText:string = "";
   private departments : Department[] = [];
   public displayedDepartments : Department [] = [];

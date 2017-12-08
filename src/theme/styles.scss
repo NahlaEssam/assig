@@ -24,6 +24,10 @@
     src: url('../assets/fonts/Cairo-SemiBold.ttf');
 }
 
+.header-search-icon{
+    font-size: 1.6em !important;
+    font-weight: 600;;
+}
  .center{
         text-align: center;   
  }
@@ -43,13 +47,16 @@
     border-left: solid 1px;
 }
 .app-root{
-    font-family: 'cairoRegular';
+    font-family: 'cairoLight';
 }
 .toolbar-title{
     // font-size: 34px;
-    font-size: 17px;
+    font-size: 17px;    
+    padding-bottom: 7.5px;
+    font-weight: normal;
 
 }
+
 .tab-button-text{
     // font-size: 27px;
     // font-size: 13.5px !important;
