@@ -28,14 +28,14 @@
         text-align: center;   
  }
 .tab-badge{
-        border-radius: 15px;
-        width: 15px;
-        height: 15px;
-        top: 22%;
-        font-size: 11px;
-        padding: 0px;
-        right: calc(50% - 46px) !important;
-        line-height: 14px;
+           border-radius: 13px;
+    width: 13px;
+    height: 13px;
+    top: 23%;
+    font-size: 11px;
+    padding: 0px;
+    right: calc(50% - 44px) !important;
+    line-height: 13px;
 }
    
 #tab-t0-1{
@@ -56,11 +56,15 @@
     font-size: 16px !important;
     line-height: 1.4;
     // font-size: 18.5px !important;
-    margin-right: 6px  !important;
+    margin-right: 5px  !important;
     margin-bottom: 0px  !important;
 }
+.tab-button{
+    min-height: 4.3rem !important;
+}
 .tab-button-icon{
-    font-size: 28px;
+        min-width: 2rem !important;
+    font-size: 1.5rem !important;
 }
 .tab-button .ion-icon{
     min-width: 20px;
