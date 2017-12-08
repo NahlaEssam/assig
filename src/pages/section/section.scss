@@ -1,7 +1,7 @@
 @import "../../theme/variables.scss";
 section-page {
     .toolbar-content-md{
-        padding-left: 28px;
+        padding-left: 33px;
     }
     .fixed-content{
         background: rgb(214,223,228);  
@@ -13,9 +13,14 @@ section-page {
             border-radius: 4px;
            
     }
-    .button-text, .pin{
+    .button-text{
         // font-size: 37px;
         font-size: 19px !important;
+        margin-right: -4px;
+    }
+    .pin{
+        // font-size: 37px;
+        font-size: 17px !important;
     }
     .scroll-content{
             padding: 6.5px !important;
@@ -44,12 +49,14 @@ section-page {
                     .name{
                             // font-size: 32px;
                             // font-size: 16px;
+                            margin-top: -8px;
                             font-size: 15px;
                             text-align: center;
-                             font-weight: bold;
+                            font-weight: bold;
                             text-overflow: ellipsis;
                             white-space: nowrap;
                             overflow: hidden;
+                            color: #9a9a9a;
                     }
             }
 

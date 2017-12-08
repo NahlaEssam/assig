@@ -31,53 +31,76 @@
  .center{
         text-align: center;   
  }
-.tab-badge{
-           border-radius: 13px;
-    width: 13px;
-    height: 13px;
-    top: 23%;
-    font-size: 11px;
-    padding: 0px;
-    right: calc(50% - 44px) !important;
-    line-height: 13px;
-}
+
    
 #tab-t0-1{
     border-right: solid 1px;
     border-left: solid 1px;
 }
-.app-root{
-    font-family: 'cairoLight';
-}
-.toolbar-title{
-    // font-size: 34px;
-    font-size: 17px;    
-    padding-bottom: 7.5px;
-    font-weight: normal;
+#tab-t0-0{
+    .tab-badge{
+        border-radius: 13px;
+        width: 10px;
+        height: 10px;
+        top: 28%;
+        font-size: 9px;
+        padding: 0px;
+        right: calc(50% - 27px) !important;
+        line-height: 10px;
+    }
+    .tab-button-icon{
+        font-size: 1.5rem !important;
+        height: 13px !important;
+        width: 20px !important;
+        margin-right: 6px;
 
+    }
+  
+    .tab-button-text{
+        font-size: 13px !important;
+        line-height: 1.4;
+        margin-right: -1px !important;
+        margin-bottom: 0px !important;
+    }
 }
 
+.tabbar{
+    color: white !important;
+}
 .tab-button-text{
-    // font-size: 27px;
-    // font-size: 13.5px !important;
-    font-size: 16px !important;
-    line-height: 1.4;
-    // font-size: 18.5px !important;
-    margin-right: 5px  !important;
-    margin-bottom: 0px  !important;
-}
-.tab-button{
-    min-height: 4.3rem !important;
+
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+    margin-right: 1px !important;
+    margin-bottom: 0px !important;
 }
 .tab-button-icon{
-        min-width: 2rem !important;
     font-size: 1.5rem !important;
+    height: 13px !important;
+    width: 20px !important;
+    margin-top: 0px !important;
+    // margin-right: 6px;
 }
 .tab-button .ion-icon{
     min-width: 20px;
     height: 20px;
     font-size: 20px;
 }
+.app-root{
+    font-family: 'cairoLight';
+}
+.toolbar-title{
+    font-size: 17px;    
+    padding-bottom: 4.5px;
+    font-weight: normal;
+
+}
+
+
+.tab-button{
+    min-height: 4.2rem !important;
+}
+
    
 ion-icon {
     &[class*="appname-"] {
