@@ -1,18 +1,61 @@
+ @font-face {
+    font-family: 'cairoBlack';
+    src: url('../assets/fonts/Cairo-Black.ttf');
+}
+
+ @font-face {
+    font-family: 'cairoBold';
+    src: url('../assets/fonts/Cairo-Bold.ttf');
+}
+ @font-face {
+    font-family: 'cairoExtraLight';
+    src: url('../assets/fonts/Cairo-ExtraLight.ttf');
+}
+ @font-face {
+    font-family: 'cairoLight';
+    src: url('../assets/fonts/Cairo-Light.ttf');
+}
+ @font-face {
+    font-family: 'cairoRegular';
+    src: url('../assets/fonts/Cairo-Regular.ttf');
+}
+ @font-face {
+    font-family: 'cairoSemiBold';
+    src: url('../assets/fonts/Cairo-SemiBold.ttf');
+}
+
  .center{
         text-align: center;   
-    }
-    .tab-badge{
-            border-radius: 14px;
-            width: 14px;
-            height: 14px;
-            top: 27%;
-            font-size: 10px;
-            padding: 0px;
-            right: calc(50% - 36px) !important;
-    }
+ }
+.tab-badge{
+        border-radius: 15px;
+        width: 15px;
+        height: 15px;
+        top: 22%;
+        font-size: 11px;
+        padding: 0px;
+        right: calc(50% - 42px) !important;
+        line-height: 14px;
+}
    
-        #tab-t0-1{
-            border-right: solid 1px;
-            border-left: solid 1px;
-        }
+#tab-t0-1{
+    border-right: solid 1px;
+    border-left: solid 1px;
+}
+.app-root{
+    font-family: 'cairoRegular';
+}
+.toolbar-title{
+    // font-size: 34px;
+    font-size: 17px;
+
+}
+.tab-button-text{
+    // font-size: 27px;
+    font-size: 13.5px !important;
+}
+.tab-button-icon{
+    font-size: 28px;
+}
+
    
